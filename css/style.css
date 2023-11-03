@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-col-1-6 {
+    width: calc((100% / 6) * 1);
+}
+
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+.header-top {
+    padding: 10px;
+}
