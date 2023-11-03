@@ -22,15 +22,130 @@ html {
     width: calc((100% / 6) * 1);
 }
 
+.my-col-3-5 {
+    width: calc((100% / 5) * 3);
+}
+
+.my-col-1-4 {
+    width: calc((100% / 4) * 1);
+}
+
+.my-col-3-4 {
+    width: calc((100% / 4) * 3);
+}
+
 .my-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #ddd;
-    color: black;
+    color: #23272a;
     text-decoration: none;
 }
 
+.my-button-small {
+    font-size: 0.8em;
+}
+
+.my-button-dark {
+    background-color: #23272a;
+    color: #eee;
+}
+
 .header-top {
+    padding: 10px 0;
+    background-color: #255ee9;
+}
+
+.header-top .main-menu-container
+
+.header-top .main-menu > * {
     padding: 10px;
+}
+
+.header-top .main-menu-container > .main-nav {
+    text-align: center;
+}
+
+.header-top .main-menu-container > .main-nav ul li {
+    display: inline-block;
+}
+
+.header-top .main-menu-container > .main-nav ul li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.header -top .main-menu-container > .logo-container img {
+    height: 40px;
+}
+
+.header-top .main-menu-container > .logo-container {
+    justify-content: flex-end;
+}
+
+.header-bottom {
+    padding: 50px 0;
+    background-color: #255ee9;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-bottom .jumbotron {
+    text-align: center;
+}
+
+.header-bottom .jumbotron h1 {
+    font-size: 2.5em;
+    margin: 30px 0;
+    color: white;
+}
+
+.header-bottom .jumbotron p {
+    font-size: 1.2em;
+    margin: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-bottom .jumbotron a:first-of-type {
+    margin-right: 20px;
+}
+
+.main-section-row {
+    padding: 40px 0;
+}
+
+main > section:nth-child(even) {
+    background-color: lightgrey;
+}
+
+main img {
+    max-width: 100%;
+}
+
+/* .debug .header-bottom .jumbotron {
+    background-color: fuchsia;
+    border: 1px dashed black;
+    min-height: 400px;
+} */
+
+.debug main section .my-row .my-col-3-5 {
+    background-color: #1e90ff;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main sectio .my-row .my-col-2-5 {
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .big-green {
+
 }
