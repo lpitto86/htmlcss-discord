@@ -52,6 +52,15 @@ html {
     color: #eee;
 }
 
+.my-button-lilac {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #7289da;
+    color: #23272a;
+    text-decoration: none;
+}
+
 .p {
     font-size: 1.2em;
     line-height: 30px;
@@ -126,7 +135,17 @@ html {
 }
 
 main > section:nth-child(even) {
-    background-color: lightgrey;
+    background-color: rgb(231, 231, 231);
+}
+
+main section .big-green {
+    text-align: center;
+}
+
+.stars-par {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-image: url(../img/stars.svg)
 }
 
 main img {
@@ -170,4 +189,60 @@ main > section:nth-child(even) .text-container {
 
 .debug main section .big-green {
 
+}
+
+footer {
+    background-color: #23272a;
+}
+
+.footer-top {
+    padding: 30px 0;
+}
+
+.footer-top .footer-top-main-row i {
+    color: white;
+}
+
+.footer-top .footer-top-main-row ul {
+    list-style: none;
+}
+
+.footer-top .footer-top-main-row h4 {
+    color: #7289da;
+    font-size: 1.6em;
+    line-height: 35px;
+}
+
+.footer-top .footer-top-main-row h5 {
+    color: #7289da;
+}
+
+.footer-top .footer-top-main-row ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-top .lang-container {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer-top .lang-container img {
+    height: 15px;
+}
+
+.footer-top .brands-container i::not(:first-child):not(:last-child) {
+    margin-left: 15px;
+}
+
+.footer-top hr {
+    margin-top: 30px;
+}
+
+.footer-bottom .sign-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
